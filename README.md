@@ -1,3 +1,3 @@
 # EasyNetworkManager
 
-A description of this package.
+Use as SPM.
