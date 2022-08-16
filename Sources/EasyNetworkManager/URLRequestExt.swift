@@ -16,7 +16,7 @@ public extension URLRequest {
         }
         
         self = Self(url: url)
-            .add(headers: ["Content-Type": "application/json"])//this is going to be present for almost all requests
+            //.add(headers: ["Content-Type": "application/json"])//this is going to be present for almost all requests
     }
     
     private func map(_ transform: (inout Self) -> ()) -> Self {
