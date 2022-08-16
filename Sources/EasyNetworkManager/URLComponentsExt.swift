@@ -13,7 +13,7 @@ import Foundation
 
 public extension URLComponents {
     init(scheme: String = "https",//This will be same for most of the apps we work on
-         host: String = "api.letsbuildthatapp.com",//This we need to change with respect to the client
+         host: String,//This we need to change with respect to the client
          path: String,//custom path unique for every request
          queryItems: [URLQueryItem]? = nil) {//this is where you provide the request body
         var components = URLComponents()
